@@ -16,6 +16,7 @@ namespace Entity03HW
         {
             MailMessage msg = new MailMessage();
 
+
             msg.From = new MailAddress("v@gmail.com");
             msg.To.Add("Natalie1995@list.ru");
             msg.Subject = "Hello world! " + DateTime.Now.ToString();
